@@ -1,7 +1,7 @@
 # Alaska - The Last Frontier
 
-![Alaska Preview](https://via.placeholder.com/1200x600/0d47a1/ffffff?text=Alaska+Landing+Page+Preview)  
-*(Replace this placeholder with a real screenshot of your page later – upload it to the repo and update the link)*
+![Alaska Preview]<img width="1663" height="907" alt="Снимок экрана 2026-01-22 003144" src="https://github.com/user-attachments/assets/c908372c-84c8-4d10-89c9-8138db02a249" /> 
+
 
 A clean, one-page landing page dedicated to **Alaska — The Last Frontier**.  
 Showcases stunning wildlife, mighty glaciers, unforgettable activities, and a call to get Northern Lights alerts.
@@ -14,6 +14,7 @@ Built with pure **HTML5**, **CSS3**, and **Bootstrap 5.3**.
 
 <grok-card data-id="b2ae7d" data-type="image_card"  data-arg-size="LARGE" ></grok-card>
 
+<img width="1663" height="907" alt="Снимок экрана 2026-01-22 003144" src="https://github.com/user-attachments/assets/c908372c-84c8-4d10-89c9-8138db02a249" />
 
 
 <grok-card data-id="2de054" data-type="image_card"  data-arg-size="LARGE" ></grok-card>
