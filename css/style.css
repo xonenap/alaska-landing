@@ -1,0 +1,130 @@
+/* Сброс настроек, чтобы ничего не мешало */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+html {
+    /* Включаем примагничивание по вертикали */
+    scroll-snap-type: y mandatory;
+    /* Плавный скролл (уже обсуждали, но в паре они работают идеально) */
+    scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* Разные цвета, чтобы увидеть движение */
+.part-1 {
+  background-image: url(../img/josh-reeder-esparza-JACEkXaAay0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.part-2 {
+  /* Мы создаем градиент от черного к черному поверх картинки */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.219)), 
+                    url(../img/kishore-narendran--4huwcjCSQE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  position: sticky; /* Не забывай про это, чтобы эффект наплыва работал */
+  top: 0;
+}
+
+.part-2 .card {
+    min-height: 450px;
+}
+
+.part-2 .card-img {
+    height: 100%;
+    object-fit: cover;
+}
+.part-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), 
+                    url(../img/louise-tollisen-vAm1GJJBMSE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 3;
+}
+.part-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+                    url(../img/janosch-diggelmann-4OfsyY4n9k0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 4;
+}
+
+
+.part-5 {
+  background-image: url(../img/mckayla-crump-3OR-XFzKSBo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: 5;
+}
+
+
+#carouselExampleAutoplaying .carousel-inner,
+#carouselExampleAutoplaying .carousel-item {
+  height: 600px;           /* подбери значение под свой дизайн: 450px, 500px, 550px, 60vh и т.д. */
+  overflow: hidden;
+}
+
+#carouselExampleAutoplaying .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* cover — обрезает красиво, contain — оставляет полностью, но могут быть полосы */
+  object-position: center;
+}
+
+/* Для мобильных устройств (опционально) */
+@media (max-width: 768px) {
+  #carouselExampleAutoplaying .carousel-inner,
+  #carouselExampleAutoplaying .carousel-item {
+    height: 350px;         /* или 300px, 40vh */
+  }
+}
+
+.custom-navbar {
+    /* Полупрозрачный фон */
+    background: rgba(255, 255, 255, 0.05);
+    /* Размытие заднего фона */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); /* Для поддержки Safari */
+    /* Тонкая рамка снизу для акцента */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* Плавное появление */
+    transition: all 0.3s ease;
+}
+
+/* Стили для ссылок, чтобы они подсвечивались при наведении */
+.custom-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin-left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.part-2 .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.part-2 .card:hover {
+    transform: translateY(-10px); /* Карточка слегка приподнимается */
+    box-shadow: 0 10px 20px rgba(255,255,255,0.2) !important;
+}
