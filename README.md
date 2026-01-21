@@ -14,7 +14,6 @@ Built with pure **HTML5**, **CSS3**, and **Bootstrap 5.3**.
 
 <grok-card data-id="b2ae7d" data-type="image_card"  data-arg-size="LARGE" ></grok-card>
 
-<img width="1663" height="907" alt="Снимок экрана 2026-01-22 003144" src="https://github.com/user-attachments/assets/c908372c-84c8-4d10-89c9-8138db02a249" />
 
 
 <grok-card data-id="2de054" data-type="image_card"  data-arg-size="LARGE" ></grok-card>
