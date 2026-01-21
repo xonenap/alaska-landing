@@ -28,16 +28,4 @@ Built with pure **HTML5**, **CSS3**, and **Bootstrap 5.3**.
 - Northern Lights subscription form with blur effect
 - Simple & clean layout
 
-## Demo
 
-Live version (once you enable GitHub Pages):  
-https://xonenap.github.io/your-repo-name/  
-*(replace "your-repo-name" with the actual name of your repository)*
-
-Or just open `index.html` in your browser locally.
-
-## How to Run Locally
-
-1. Clone the repo (or download ZIP):
-   ```bash
-   git clone https://github.com/xonenap/your-repo-name.git
