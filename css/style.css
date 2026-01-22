@@ -37,16 +37,30 @@ section {
   z-index: 2;
   position: sticky; /* Не забывай про это, чтобы эффект наплыва работал */
   top: 0;
+  padding: 100px 0;
+  min-height: 100vh;
 }
 
 .part-2 .card {
-    min-height: 450px;
+  height: 420px;
+  overflow: hidden;
 }
 
-.part-2 .card-img {
-    height: 100%;
-    object-fit: cover;
+.part-2 .card img {
+  height: 100%;
+  object-fit: cover;
 }
+
+.part-2 .card-img-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.15)
+  );
+}
+
+
 .part-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), 
                     url(../img/louise-tollisen-vAm1GJJBMSE-unsplash.jpg);
@@ -84,13 +98,40 @@ section {
   object-position: center;
 }
 
-/* Для мобильных устройств (опционально) */
-@media (max-width: 768px) {
-  #carouselExampleAutoplaying .carousel-inner,
-  #carouselExampleAutoplaying .carousel-item {
-    height: 350px;         /* или 300px, 40vh */
+@media (max-width: 900px) {
+  .part-2 .card {
+    height: 300px;
+  }
+
+  .part-2 .card-text {
+    font-size: 0.85rem;
   }
 }
+
+
+@media (max-width: 576px) {
+  .part-2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .part-2 .card {
+    height: 240px; /* было 300 — уменьшаем */
+  }
+
+  .part-2 .card-title {
+    font-size: 1rem;
+  }
+
+  .part-2 .card-text {
+    font-size: 0.75rem;
+    line-height: 1.25;
+    max-height: 90px;
+    overflow-y: auto;
+  }
+}
+
+
 
 .custom-navbar {
     /* Полупрозрачный фон */
@@ -128,3 +169,4 @@ html {
     transform: translateY(-10px); /* Карточка слегка приподнимается */
     box-shadow: 0 10px 20px rgba(255,255,255,0.2) !important;
 }
+

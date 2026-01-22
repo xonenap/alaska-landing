@@ -13,22 +13,37 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
-  <div class="container">
-    <a class="navbar-brand fw-bold text-uppercase" href="#">Alaska</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
-        <li class="nav-item"><a class="nav-link" href=".part-1">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href=".part-2">Wildlife</a></li>
-        <li class="nav-item"><a class="nav-link" href=".part-3">Glaciers</a></li>
-        <li class="nav-item"><a class="nav-link" href=".part-4">Activities</a></li>
-        <li class="nav-item"><a class="nav-link" href=".part-5">Aurora</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      <div class="container">
+        <a class="navbar-brand fw-bold text-uppercase" href="#">Alaska</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link" href=".part-1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=".part-2">Wildlife</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=".part-3">Glaciers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=".part-4">Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=".part-5">Aurora</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <section class="part-1" id="part-1">
       <div
         class="container h-100 d-flex flex-column justify-content-center align-items-center text-white"
@@ -41,8 +56,8 @@
     </section>
     <section class="part-2" id="part-2">
       <div class="container h-100 d-flex align-items-center">
-        <div class="row g-4 w-100">
-          <div class="col-md-4">
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-sm-10 col-md-6 col-lg-4">
             <div class="card text-bg-dark border-0 shadow-lg">
               <img
                 src="img/istockphoto-1203865926-612x612.jpg"
@@ -64,8 +79,7 @@
               </div>
             </div>
           </div>
-
-          <div class="col-md-4">
+          <div class="col-12 col-sm-10 col-md-6 col-lg-4">
             <div class="card text-bg-dark border-0 shadow-lg">
               <img
                 src="img/IMG_8018 Amanda Mitchell x Cultural Ambassador.jpg"
@@ -89,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-12 col-sm-10 col-md-6 col-lg-4">
             <div class="card text-bg-dark border-0 shadow-lg">
               <img
                 src="img/pete-nuij-0goAIAtLlF4-unsplash.jpg"
@@ -142,72 +156,87 @@
       </div>
     </section>
     <section class="part-4" id="part-4">
-  <div class="container h-100 d-flex flex-column justify-content-center text-white">
-    <h2 class="display-4 fw-bold mb-5 text-center">
-      Unforgettable Activities
-    </h2>
+      <div
+        class="container h-100 d-flex flex-column justify-content-center text-white"
+      >
+        <h2 class="display-4 fw-bold mb-5 text-center">
+          Unforgettable Activities
+        </h2>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel">
-      <div class="carousel-inner rounded-4">
-        <div class="carousel-item active">
-          <img 
-            src="img/bit-cloud-y7L1hX_TkzM-unsplash.jpg" 
-            class="d-block w-100" 
-            alt="Sea Kayaking"
-          >
-          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill px-4">
-            <h3>Sea Kayaking</h3>
-            <p>Paddle through icebergs and watch whales from a distance.</p>
-          </div>
-        </div>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide shadow-lg"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner rounded-4">
+            <div class="carousel-item active">
+              <img
+                src="img/bit-cloud-y7L1hX_TkzM-unsplash.jpg"
+                class="d-block w-100"
+                alt="Sea Kayaking"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill px-4"
+              >
+                <h3>Sea Kayaking</h3>
+                <p>Paddle through icebergs and watch whales from a distance.</p>
+              </div>
+            </div>
 
-        <div class="carousel-item">
-          <img 
-            src="img/fridi-antrack-ymw9uds8TPg-unsplash.jpg" 
-            class="d-block w-100" 
-            alt="Dog Sledding"
-          >
-          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill px-4">
-            <h3>Dog Sledding</h3>
-            <p>Experience the traditional Alaskan way of winter travel.</p>
-          </div>
-        </div>
+            <div class="carousel-item">
+              <img
+                src="img/fridi-antrack-ymw9uds8TPg-unsplash.jpg"
+                class="d-block w-100"
+                alt="Dog Sledding"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill px-4"
+              >
+                <h3>Dog Sledding</h3>
+                <p>Experience the traditional Alaskan way of winter travel.</p>
+              </div>
+            </div>
 
-        <div class="carousel-item">
-          <img 
-            src="img/henri-picot - X5FNFdq7Uw-unsplash.jpg" 
-            class="d-block w-100" 
-            alt="Hiking"
-          >
-          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill px-4">
-            <h3>Hiking</h3>
-            <p>A bizarre mountain walk with a beautiful view of the mountains.</p>
+            <div class="carousel-item">
+              <img
+                src="img/henri-picot - X5FNFdq7Uw-unsplash.jpg"
+                class="d-block w-100"
+                alt="Hiking"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-pill px-4"
+              >
+                <h3>Hiking</h3>
+                <p>
+                  A bizarre mountain walk with a beautiful view of the
+                  mountains.
+                </p>
+              </div>
+            </div>
           </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-
-      <button 
-        class="carousel-control-prev" 
-        type="button" 
-        data-bs-target="#carouselExampleAutoplaying" 
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-
-      <button 
-        class="carousel-control-next" 
-        type="button" 
-        data-bs-target="#carouselExampleAutoplaying" 
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-</section>
+    </section>
     <section class="part-5" id="part-5">
       <div
         class="container h-100 d-flex flex-column justify-content-center align-items-center text-white text-center"
