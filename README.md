@@ -28,4 +28,4 @@ Built with pure **HTML5**, **CSS3**, and **Bootstrap 5.3**.
 - Northern Lights subscription form with blur effect
 - Simple & clean layout
 
-
+https://xonenap.github.io/alaska-landing/
